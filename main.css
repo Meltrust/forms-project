@@ -122,6 +122,8 @@ body {
   width: 95%;
   margin-top: 10px;
   margin-bottom: 20px;
+  border-radius: 4px;
+  height: 24px;
 }
 
 .form-fieldset span {
@@ -164,4 +166,12 @@ body {
 
 .privacy-footer span > a {
   font-size: 10px;
+}
+
+#password {
+  background-image: url(icons/open-lock.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 17px 17px;
 }
