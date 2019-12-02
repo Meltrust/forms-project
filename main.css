@@ -32,3 +32,136 @@
   box-shadow: none;
   border: none;
 }
+
+body {
+  background-color: rgb(236, 233, 233);
+}
+
+.primary-header {
+  height: 80px;
+  text-align: center;
+}
+
+.primary-header img {
+  height: 100%;
+}
+
+.help-links {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-links img {
+  height: 30px;
+  padding: 0 3px;
+}
+
+.help-links span {
+  padding-right: 5px;
+  font-family: Helvetica, sans-serif;
+  color: rgb(179, 176, 176);
+  font-size: 20px;
+}
+
+.help-links a {
+  text-decoration: none;
+}
+
+.form-section {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.form-signin {
+  width: 420px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border-width: 1px;
+  border-color: rgb(209, 209, 209);
+  border-style: solid;
+}
+
+.form-signin h3 {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #535353;
+}
+
+.form-signin h5 {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  color: #535353;
+  margin-bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.form-signin a {
+  font-family: Helvetica, sans-serif;
+  text-decoration: none;
+  margin-top: 0;
+  font-weight: lighter;
+  font-size: 12px;
+}
+
+.form-fieldset {
+  padding-top: 20px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 15px;
+}
+
+.form-fieldset input {
+  width: 95%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-fieldset span {
+  display: none;
+}
+
+.form-fieldset button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+}
+
+.form-fieldset i {
+  margin-right: 3px;
+}
+
+.terms {
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.form-footer {
+  margin: 50px;
+}
+
+.privacy-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(238, 235, 235);
+}
+
+.privacy-footer span {
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.privacy-footer span > a {
+  font-size: 10px;
+}
