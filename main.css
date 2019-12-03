@@ -1,3 +1,7 @@
+* {
+  font-family: AvenirNextRegular;
+}
+
 .forgot-pass {
   display: flex;
   flex-direction: column;
@@ -87,7 +91,6 @@ body {
 }
 
 .form-signin h3 {
-  font-family: Helvetica, sans-serif;
   font-weight: lighter;
   color: #535353;
 }
@@ -118,16 +121,26 @@ body {
   margin: 15px;
 }
 
-.form-fieldset input {
-  width: 95%;
+.form-fieldset > input {
+  width: 89.45%;
   margin-top: 10px;
   margin-bottom: 20px;
   border-radius: 4px;
-  height: 24px;
+  height: 30px;
+  border-style: solid;
+  padding-left: 5px;
+  padding-right: 30px;
+  font-family: Helvetica, sans-serif;
 }
 
 .form-fieldset span {
-  display: none;
+  padding-bottom: 17px;
+  padding-top: 5px;
+  font-size: 11px;
+  color: #444;
+}
+.form-fieldset input[type="tel"] {
+  margin-bottom: 0;
 }
 
 .form-fieldset button {
@@ -144,6 +157,7 @@ body {
   font-size: 12px;
   font-style: italic;
   text-align: center;
+  color: #444;
 }
 
 .form-footer {
@@ -162,6 +176,7 @@ body {
 .privacy-footer span {
   font-size: 10px;
   font-weight: lighter;
+  color: #8d9096;
 }
 
 .privacy-footer span > a {
@@ -174,4 +189,51 @@ body {
   background-repeat: no-repeat;
   background-color: white;
   background-size: 17px 17px;
+  background-position-x: 97%;
+}
+
+.create-account_button {
+  background-color: #0879c8;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.ending {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.legal-stuff > span {
+  margin-right: 10px;
+  color: #505050;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Helvetica, sans-serif;
+}
+
+.legal-stuff {
+  margin-top: 20px;
+}
+
+.trademark {
+  font-size: 12px;
+}
+
+.trademark > p {
+  margin: 0;
+  color: #505050;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: AvenirNextRegular;
+  src: url(fonts/AvenirNextRegular.otf);
+}
+
+@font-face {
+  font-family: AvenirNextIt;
+  src: url(fonts/AvenirNextIt.otf);
 }
