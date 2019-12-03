@@ -239,3 +239,36 @@ body {
   font-family: AvenirNextIt;
   src: url(fonts/AvenirNextIt.otf);
 }
+
+.speech-bubble {
+  display: flex;
+  position: absolute;
+  background: #154568;
+  border-radius: 0.4em;
+  min-height: 40px;
+  height: auto;
+  width: 250px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-right-color: #154568;
+  border-left: 0;
+  margin-top: -15px;
+  margin-left: -12px;
+}
+
+.hide-bubble {
+  visibility: hidden;
+}
