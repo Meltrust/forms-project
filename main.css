@@ -1,5 +1,5 @@
 * {
-  font-family: AvenirNextRegular;
+  font-family: AvenirNextRegular, Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }
 
 .forgot-pass {
@@ -139,6 +139,7 @@ body {
   font-size: 11px;
   color: #444;
 }
+
 .form-fieldset input[type="tel"] {
   margin-bottom: 0;
 }
@@ -204,6 +205,7 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
 .legal-stuff > span {
   margin-right: 10px;
   color: #505050;
