@@ -122,6 +122,8 @@ body {
 }
 
 .form-fieldset > input {
+  border-width: 1px;
+  border-color: lightgray;
   width: 89.45%;
   margin-top: 10px;
   margin-bottom: 20px;
