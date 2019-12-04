@@ -44,9 +44,23 @@
         <a href="#">Learn more</a>
         <fieldset class="form-fieldset">
           <label for="email">Email address</label>
-          <input type="email" name="email" id="email" required />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            onfocus="onFocusFunction('email',0)"
+            onblur="onBlurFunction()"
+            required
+          />
           <label for="phone">Phone (recommended)</label>
-          <input type="tel" name="phone" id="phone" required />
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            onfocus="onFocusFunction('phone',1)"
+            onblur="onBlurFunction()"
+            required
+          />
           <span>Standard call, messaging or data rates may apply.</span>
           <label for="password">Password</label>
           <input
@@ -54,6 +68,8 @@
             class="pass"
             name="password"
             id="password"
+            onfocus="onFocusFunction('password',2)"
+            onblur="onBlurFunction()"
             required
           />
 
@@ -77,6 +93,9 @@
             <a href="#">Terms of Use</a>.</span
           >
         </div>
+        <div class="speech-bubble hide-bubble" id="bubble">
+          Ceva
+        </div>
       </form>
     </section>
     <footer class="ending">
@@ -94,7 +113,32 @@
         </p>
       </div>
     </footer>
-  </body>
+    <script src="https://use.fontawesome.com/3a7f834a9b.js"></script>
+    <script>
+      var msg = [
+        "You'll use this as your user ID",
+        "We strongly recommand adding a phone number!",
+        "Create a password you`ve never used before!"
+      ];
+      function onFocusFunction(elementId, numberMsg) {
+        var bubbleElement = document.getElementById("bubble");
+        bubbleElement.classList.remove("hide-bubble");
+        var el = document.getElementById(elementId);
+        var rect = getPosition(el);
+        bubbleElement.style.left = rect.left + rect.width + 20 + "px";
+        bubbleElement.style.top = rect.top + "px";
+        bubbleElement.innerHTML = msg[numberMsg];
+      }
 
-  <script src="https://use.fontawesome.com/3a7f834a9b.js"></script>
+      function onBlurFunction() {
+        var bubbleElement = document.getElementById("bubble");
+        bubbleElement.classList.add("hide-bubble");
+      }
+
+      function getPosition(element) {
+        var rect = element.getBoundingClientRect();
+        return rect;
+      }
+    </script>
+  </body>
 </html>
