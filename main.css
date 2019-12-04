@@ -153,6 +153,10 @@ body {
   margin-right: 3px;
 }
 
+.form-fieldset label {
+  text-align: start;
+}
+
 .terms {
   font-size: 12px;
   font-style: italic;
