@@ -140,6 +140,7 @@ body {
   padding-top: 5px;
   font-size: 11px;
   color: #444;
+  text-align: start;
 }
 
 .form-fieldset input[type="tel"] {
