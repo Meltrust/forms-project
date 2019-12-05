@@ -12,7 +12,7 @@ Second Microverse project. Clone Inuit's sign up page.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Meltrust/forms-project/0f3c92d62e55b3d1867b8eb41a81705dbbe9a49a/index.html)
+[Live Demo Link](https://meltrust.github.io/forms-project/)
 
 To get a local copy up and running follow these simple example steps.
 
