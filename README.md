@@ -6,7 +6,8 @@ Second Microverse project. Clone Inuit's sign up page.
 
 ## Built With
 
-- Html,
+- Html
+- Css
 - Javascript
 
 ## Live Demo
@@ -17,9 +18,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 - Clone the project unto your local machine
-- Navigate into `index.html` file and run on the browser
+- Navigate into `index.html` file and run on your browser
 
 ## Authors
 
