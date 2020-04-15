@@ -22,9 +22,15 @@ To get a local copy up and running follow these simple example steps:
 - Clone the project unto your local machine
 - Navigate into `index.html` file and run on your browser
 
+## Future Features:
+
+- Implement responsive design.
+
 ## Authors
 
-👤 **Author**
+👤 **Authors**
 
-- Miguel Tapia Escalera [Github link](https://github.com/Meltrust)
-- Cristu Marian [Github link](https://github.com/mariancristu)
+- Miguel Tapia Escalera [@meltrust](https://github.com/Meltrust) 
+Contact: original.mtapia@outlook.com
+
+- Cristu Marian [@mariancristu](https://github.com/mariancristu)
